@@ -1,0 +1,24 @@
+:root {
+    --primary-color: #565175;
+    --secondary-color: #538a95;
+    --highlight-color: #ffb727;
+    --stronger-color: #e4491c;
+    --soft-color: #67b79e;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20pt;
+}
